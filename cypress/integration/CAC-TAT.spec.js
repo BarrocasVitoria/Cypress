@@ -74,7 +74,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
       .clear().should('have.value', '')
     cy.get('#open-text-area')
       .type('teste')
-      .should('have.value', 'teste')
+      .should('have.value', 'testeeee')
       .clear().should('have.value', '')
     })
   })
